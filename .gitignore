@@ -1,0 +1,9 @@
+.DS_Store
+goios.ios64-new/
+ipfsios/build/
+ipfsios/ipfsios.xcodeproj/project.xcworkspace/*
+ipfsios/ipfsios.xcodeproj/project.xcworkspace/xcshareddata/*
+ipfsios/ipfsios.xcodeproj/project.xcworkspace/xcuserdata/*
+ipfsios/ipfsios/_cgo_export.h
+ipfsios/ipfsios/go-output.a
+ipfsios/ipfsios/gosources/gosources
