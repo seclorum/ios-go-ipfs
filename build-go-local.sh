@@ -2,13 +2,13 @@
 #!/bin/bash
 echo "Go Build Started .."
 
-export GO=/Users/j/Documents/ipfs/ipfs-on-ios.clean/ipfsios/../goios.ios64-new//bin/go
+export GO=/Users/j/Documents/ipfs/ipfs-on-ios.seclorum/ipfsios/../goios.ios64-new//bin/go
 export GG_OBJ=/Users/j/Library/Developer/Xcode/DerivedData/ipfsios-aklfckqgczeogudriwvjkojnmrsg/Build/Products/Debug-iphoneos/go-obj
 export GG_CGO_OBJ=/Users/j/Library/Developer/Xcode/DerivedData/ipfsios-aklfckqgczeogudriwvjkojnmrsg/Build/Products/Debug-iphoneos/cgo-obj
 export ARCHIVE=/Users/j/Library/Developer/Xcode/DerivedData/ipfsios-aklfckqgczeogudriwvjkojnmrsg/Build/Products/Debug-iphoneos/go-output.a
-export GOSOURCES=/Users/j/Documents/ipfs/ipfs-on-ios.clean/ipfsios/ipfsios/gosources
+export GOSOURCES=/Users/j/Documents/ipfs/ipfs-on-ios.seclorum/ipfsios/ipfsios/gosources
 export GOPATH=/Users/j/Library/Developer/Xcode/DerivedData/ipfsios-aklfckqgczeogudriwvjkojnmrsg/Build/Products/Debug-iphoneos/go-src
-export GOROOT=/Users/j/Documents/ipfs/ipfs-on-ios.clean/goios.ios64-new/
+export GOROOT=/Users/j/Documents/ipfs/ipfs-on-ios.seclorum/goios.ios64-new/
 export PATH=$PATH:/usr/local/bin
 
 echo "Generating header _cgo_export.h"

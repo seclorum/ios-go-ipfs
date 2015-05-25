@@ -16,8 +16,6 @@
 		0910F3D81AE839F300BAFC5E /* build-go.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0910F3D61AE839F300BAFC5E /* build-go.sh */; };
 		0910F3E21AE8474C00BAFC5E /* main.go in Resources */ = {isa = PBXBuildFile; fileRef = 0910F3E11AE8474C00BAFC5E /* main.go */; };
 		09C59EF21AE9005F008B9926 /* go-output.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C59EF11AE9005F008B9926 /* go-output.a */; };
-		09EDDD801AE9289200ED1F82 /* ipfs_client.go in Resources */ = {isa = PBXBuildFile; fileRef = 09EDDD7D1AE9289200ED1F82 /* ipfs_client.go */; };
-		09EDDD811AE9289200ED1F82 /* ipfs_server.go in Resources */ = {isa = PBXBuildFile; fileRef = 09EDDD7E1AE9289200ED1F82 /* ipfs_server.go */; };
 		09EDDD831AE938D300ED1F82 /* ipfsAlertDialogBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EDDD821AE938D300ED1F82 /* ipfsAlertDialogBox.m */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +36,6 @@
 		0910F3DD1AE844A800BAFC5E /* _cgo_export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _cgo_export.h; sourceTree = "<group>"; };
 		0910F3E11AE8474C00BAFC5E /* main.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.go; sourceTree = "<group>"; };
 		09C59EF11AE9005F008B9926 /* go-output.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "go-output.a"; sourceTree = "<group>"; };
-		09EDDD7D1AE9289200ED1F82 /* ipfs_client.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ipfs_client.go; sourceTree = "<group>"; };
-		09EDDD7E1AE9289200ED1F82 /* ipfs_server.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ipfs_server.go; sourceTree = "<group>"; };
 		09EDDD821AE938D300ED1F82 /* ipfsAlertDialogBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ipfsAlertDialogBox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,8 +117,6 @@
 		0910F3E01AE8474C00BAFC5E /* gosources */ = {
 			isa = PBXGroup;
 			children = (
-				09EDDD7D1AE9289200ED1F82 /* ipfs_client.go */,
-				09EDDD7E1AE9289200ED1F82 /* ipfs_server.go */,
 				0910F3E11AE8474C00BAFC5E /* main.go */,
 			);
 			path = gosources;
@@ -187,11 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0910F3BC1AE839DB00BAFC5E /* Main.storyboard in Resources */,
-				09EDDD811AE9289200ED1F82 /* ipfs_server.go in Resources */,
 				0910F3C11AE839DB00BAFC5E /* LaunchScreen.xib in Resources */,
 				0910F3BE1AE839DB00BAFC5E /* Images.xcassets in Resources */,
 				0910F3D81AE839F300BAFC5E /* build-go.sh in Resources */,
-				09EDDD801AE9289200ED1F82 /* ipfs_client.go in Resources */,
 				0910F3E21AE8474C00BAFC5E /* main.go in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
