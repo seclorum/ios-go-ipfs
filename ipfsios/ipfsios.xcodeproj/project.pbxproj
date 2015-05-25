@@ -344,6 +344,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ipfsios",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = arm64;
 			};
@@ -360,6 +361,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ipfsios",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = arm64;
 			};

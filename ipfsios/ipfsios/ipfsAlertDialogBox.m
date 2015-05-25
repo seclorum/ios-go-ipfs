@@ -44,6 +44,21 @@
 
 @end
 
+const char *getDocumentsDirForIPFS() {
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [NSString stringWithFormat:@"%@%@", [paths objectAtIndex:0], @"/.ipfs/"];
+    
+    NSDirectoryEnumerator *direnum = [[NSFileManager defaultManager] enumeratorAtPath:documentsDirectory];
+    NSString *documentsSubpath;
+    while (documentsSubpath = [direnum nextObject])
+    {
+        NSLog(@"found %@", documentsSubpath);
+    }
+    
+    return [documentsDirectory UTF8String];
+    
+}
 
 char* PopUpDialogBox(char* msg){
     BOOL userPressedYes = NO;

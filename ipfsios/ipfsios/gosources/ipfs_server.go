@@ -1,14 +1,5 @@
 package main
 
-/*
-// adjust LDFLAGS to produce linkable code - note Go starts first, so
-// be sure to change AppDelegate main() for chaining ..
-#cgo LDFLAGS: -Wl,-U,_iosmain -framework UIKit -framework Foundation -framework CoreGraphics
-*/
-import "C"
-
-/*
-
 import (
 "fmt"
 "net/http"
@@ -59,4 +50,3 @@ func ipfs_server() {
     }
 }
 
-*/
