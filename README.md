@@ -1,4 +1,8 @@
+#This repo is deprecated, please see this instead:
 
+	https://github.com/NeoTeo/IpfsIosAppExample
+
+##-------------------------------------------------------------
 ## ipfs-on-ios = An attempt to port the ipfs system to iOS.
 
 ###Goal:
